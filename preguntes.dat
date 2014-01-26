@@ -1,0 +1,20 @@
+De les següents etapes d’un sistema de mesura, quina és la que extreu informació del mon físic?
+a)  sensor / transductor 
+b)  condicionadors de senyal 
+c)  amplificació 
+d)  filtrat 
+e)  presentació
+#a
+Quan per determinar un senyal el que fem és mesurar entre un terminal i un altre de referència,del tipus de senyal en diem:
+a)  bipolar. 
+b)  unipolar. 
+c)  diferencial. 
+d)  flotant. 
+e)  mode comú.
+#b
+Un sistema de mesura i control analògic i unde digital es diferencien en que:
+a)  En un cas el controlador treballa amb senyals analògics i l’altre amb senyals digitals. 
+b)  Utilitzen transductors diferents. 
+c)  Els dispositius d’accionament interactuen amb la planta de forma diferent. 
+d)  En el digital no tenim condicionament de senyal.
+#a
