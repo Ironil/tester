@@ -27,41 +27,10 @@ class Pregunta:
             setattr(self,self.opcions[i],resposta)
             self.cadena = self.cadena+"\n"+resposta
             
-        self.opciocorrecta = tradueix(llista[-1])
+        self.opciocorrecta = dictlletres[llista[-1]]
 
-def tradueix(lletra):
-    """
-    Mira si se li ha entrat una lletra o un numero. Si és una
-    lletra, la passa a numero de 0 a el que sigui
-    """
-    try:
-        if lletra.isdigit():
-            return lletra
-        elif lletra == "a":
-            return 0
-        elif lletra == "b":
-            return 1
-        elif lletra == "c":
-            return 2
-        elif lletra == "d":
-            return 3
-        elif lletra == "e":
-            return 4
-        elif lletra == "f":
-            return 5
-    except:
-        if lletra == 0:
-            return "a"
-        if lletra == 1:
-            return "b"
-        if lletra == 2:
-            return "c"
-        if lletra == 3:
-            return "d"
-        if lletra == 4:
-            return "e"
-        if lletra == 5:
-            return "f"
+dictlletres = {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5}
+dictnum = {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4:'e', 5:'f'}
 
 linia = ""
 test = []
@@ -94,9 +63,8 @@ while entrada != "quit":
         print("La teva puntuació és: ",encerts,"de",preguntesfetes-1)
     elif entrada not in opcions:
         print("Hey, no has respost el que toca!")
-    elif tradueix(entrada) == test[npreg].opciocorrecta:
+    elif dictlletres[entrada] == test[npreg].opciocorrecta:
             print("Bravo!\n")
             encerts = encerts+1
     else:
-        print("MOOOC... La opció correcta és la: ", tradueix(test[npreg].opciocorrecta),"\n")
-        
+        print("MOOOC... La opció correcta és la: ", dictnum[test[npreg].opciocorrecta],"\n")
