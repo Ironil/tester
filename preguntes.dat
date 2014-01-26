@@ -18,3 +18,108 @@ b)  Utilitzen transductors diferents.
 c)  Els dispositius d’accionament interactuen amb la planta de forma diferent. 
 d)  En el digital no tenim condicionament de senyal.
 #a
+De  les  següents  etapes  d’un  sistema  de  mesura,  quina  és  la  que  distingeix  els  sistemes  digitals dels  sistemes 
+analògics? 
+a)  Sensor/transductor 
+b)  Condicionadors de senyal 
+c)  Convertidors AD 
+d)  Presentació i alarmes 
+e)  Enregistrament
+#c
+La instrumentació electrònica mesura magnituds 
+a)  Físiques 
+b)  Químiques 
+c)  Elèctriques i/o electròniques 
+d)  Biològiques 
+e)  Totes les anteriors son certes
+#e
+Quina funció realitza un instrument de control que no realitza un simple instrument de mesura? 
+a)  Adquisició d’informació 
+b)  Processat d’informació 
+c)  Transport d’informació 
+d)  Presentació de resultats 
+e)  Processat d’ordres cap a la planta
+#e
+A quina característica estàtica d’un sistemade mesura correspon aquesta definició:  qualitat que caracteritza la capacitat  d’un  sistema  de  mesura  de  donar  indicacions  que  s’aproximen  al  veritable  valor  de  la  magnitud mesurada? 
+a)  Fidelitat 
+b)  Repetibilitat 
+c)  Reproducibilitat 
+d)  Exactitud 
+e)  Inestabilitat
+#d
+En un instrument tenim deriva de zero: 
+a)  quan el pendent de la corba de calibració és diferent de zero. 
+b)  quan el pendent de la corba de calibració és zero. 
+c)  quan tenim variacions a la sortida tot i que l’entrada és nul·la. 
+d)  quan tenim variacions de la sensibilitat amb el temps. 
+e)  quan un increment a l’entrada, a partir de zero, provoca una variació a la sortida.
+#c
+Quina d’aquestes rectes s’utilitza per calcular la linealitat independent? 
+a)  La calculada pel mètode dels mínims quadrats però amb la restricció de pas per zero. 
+b)  La determinada pel punt de sortida quan l’entrada és mínima i el punt de sortida teòrica màxima. 
+c)  La calculada pel mètode dels mínims quadrats. 
+d)  La determinada pel punt de sortida per l’entrada mínima i el punt de sortida per l’entrada màxima. 
+e)  La definida per les previsions teòriques.
+#c
+Quina d’aquestes opcions expressa correctament la conversió de 11.3 ±0.2 polzades a mil·límetres? (1 polzada = 25.4 mm) 
+a)  287.0 ±5mm 
+b)  287 ±5.0 mm 
+c)  287 ±5 mm 
+d)  287.02 ±5.08 mm 
+#c
+A quin concepte correspon la següent definició? Qualitat que caracteritza la capacitat d’un instrument de mesura de donar el mateix valor de la magnitud mesurada almesurar diverses vegades en unes mateixes condicions
+a)  Linealitat. 
+b)  Fidelitat. 
+c)  Exactitud. 
+d)  Sensibilitat. 
+e)  Resolució.
+#b
+Si la corba de calibració d’un instrument és y = kx^3 + kx^2+ kx + B, quant val la sensibilitat de l’instrument al punt x = 1? 
+a)  3 k. 
+b)  6 k. 
+c)  3 k + B. 
+d)  6 k + B. 
+e)  0. 
+#b
+A quina característica estàtica d’un sistema de mesura correspon aquesta definició:  qualitat que caracteritza la capacitat d’un sistema de mesura de donar el mateixvalor de la magnitud mesurada al mesurar diverses vegades en unes mateixes condicions determinades?
+a)  Fidelitat 
+b)  Repetibilitat 
+c)  Reproducibilitat 
+d)  Exactitud 
+e)  Inestabilitat
+#a
+En la mesura de la superfície d’una taula rectangular determinem que la longitud és de 1000 mm amb un error de ±1 mm i l’amplada és de 5000 mm amb un error de ±2 mm. Si els errors esmentats els considerem aleatoris, quin és l’error en el càlcul de la superfície? 
+a)  7·10^-3 m^2
+b)  5.4·10^-3 m^2
+c)  7 mm^2
+d)  5.4 mm^2
+e)  5 m^^2
+#b
+Mesurem el volum d’un cub mitjançant la determinació de la longitud d’una de les seves arestes. Si el volum trobem  que  fa  1 m^3 i  l’error  en  la  mesura  de  la  longitud  (∆l)  és  de  ±1  mm,  com  expressaríeu  la  mesura  del  volum (suposant propagació d’errors sistemàtics)? 
+a)  1.000 ±0.003 m^3 
+b)  1.0 ±0.1 m^3
+c)  1 ±0.003 m^3
+d)  1.000 ±0.001 m^3. 
+e)  109±1 mm^3
+#a
+ Un  instrument  pot  realitzar  mesures  de  tensió  entre  0  i  2V,  pot  discernir  tensions  de  0.01V,  els  valors  oferts discrepen de la realitat en menys de 0.03 V, el pendent de la seva corba de calibració és de 1V/V i l’esmentada corba difereix d’una línia recta en un 2%. Quin és el seufons d’escala? 
+a)  2V 
+b)  0.01V 
+c)  0.03V 
+d)  1V/V 
+e)  2%
+#a
+Mesurem la superfície (sumant l’àrea de les6 cares) d’un cub mitjançant la determinació de la longitud d’una de les seves arestes. Si la superfície trobem que fa 600 cm^2 i l’error en la mesura de la longitud (∆l) és de  ±1 mm, quin és l’error relatiu en la mesura de la superfície (suposant propagació d’errors sistemàtics)? 
+a)  0.01. 
+b)  0.02. 
+c)  0.06. 
+d)  0.12. 
+e)  12 cm^2
+#b
+S’ha  mesurat  la  tensió  i  el  corrent  que  passa  per  una  resistència.  Aplicant  la  llei  d’Ohm  calculeu  el  valor  de d’aquesta resistència amb el seu error corresponent [V(V),I(mA)]  [5.0,40.34]  [5.0,40.30]  [5.0,40.33]  [5.0,40.36]  [5.0,40.33]
+a)  124±5Ω
+b)  124.0±2.0 Ω
+c)  124.0±2.5% Ω
+d)  124±2.5% Ω
+e)  124.0±3 Ω
+#b
