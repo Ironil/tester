@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 
-
 """
-Created on Sun Jan 26 17:03:48 2014
+Created on Sun Jan 26 2014
 
 @author: Ironil
 """
@@ -23,6 +22,8 @@ class Pregunta:
         self.enunciat = llista[0]
         self.nopcions = nopcions
         self.cadena = ""
+        #Recorre les respostes entrades, i crea dinàmicament tants
+        #atributs de la classe com preguntes. Seran foo.a, foo.b...
         for i,resposta in enumerate(llista[1:nopcions]):
             setattr(self,self.opcions[i],resposta)
             self.cadena = self.cadena+"\n"+resposta
@@ -43,6 +44,8 @@ with open("preguntes.dat", mode="r", encoding='utf-8') as f:
             #Llistapregunta conté pregunta, després les opcions
             llistapregunta.append(linia)
         else:
+			#En cas que arribem a la resposta, s'afegeix a la llista, i es crea
+			#l'objecte corresponent, que es posa a la llista test
             llistapregunta.append(linia[1])
             test.append(Pregunta(llistapregunta,len(llistapregunta)-2))
             nl = nl+1

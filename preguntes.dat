@@ -81,7 +81,7 @@ c)  3 k + B.
 d)  6 k + B. 
 e)  0. 
 #b
-A quina característica estàtica d’un sistema de mesura correspon aquesta definició:  qualitat que caracteritza la capacitat d’un sistema de mesura de donar el mateixvalor de la magnitud mesurada al mesurar diverses vegades en unes mateixes condicions determinades?
+A quina característica estàtica d’un sistema de mesura correspon aquesta definició:  qualitat que caracteritza la capacitat d’un sistema de mesura de donar el mateix valor de la magnitud mesurada al mesurar diverses vegades en unes mateixes condicions determinades?
 a)  Fidelitat 
 b)  Repetibilitat 
 c)  Reproducibilitat 
@@ -123,3 +123,10 @@ c)  124.0±2.5% Ω
 d)  124±2.5% Ω
 e)  124.0±3 Ω
 #b
+Quina d'aquestes rectes s'utilitza per calcular la linealitat terminal?
+a)  La calculada pel mètode dels mínims quadrats
+b)  La calculada pel mètode les mínims quadrats però amb la restricció de pas per zero
+c)  La determinada pel punt de sortida quan l'entrada és mínima i el punt de sortida teòrica màxima
+d)  La determinada pel punt de sortida quan la entrada és mínima i el punt de sortida quan la entrada és màxima
+e)  La definida per les previsions teòriques
+#c
